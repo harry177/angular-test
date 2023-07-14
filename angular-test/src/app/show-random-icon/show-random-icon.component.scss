@@ -1,0 +1,17 @@
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.icon-container {
+  width: 500px;
+  height: 100px;
+}
