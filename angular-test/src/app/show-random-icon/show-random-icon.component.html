@@ -1,8 +1,8 @@
 <p>show-random-icon works!</p>
 <button (click)="showRandomIcon()">Show Random Icon</button>
 <div class="icon-container">
-    <div *ngIf="randomIcon">
-        <fa-icon [icon]="[randomIcon.prefix, randomIcon.iconName]"></fa-icon>
+    <div *ngIf="showIcon">
+        <fa-icon [icon]="randomIcon"></fa-icon>
       </div>
 </div>
 
